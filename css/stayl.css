@@ -15,25 +15,13 @@ ul {
 /* site nav */
 
 .site-nav :hover,
-.site-nav:focus {
+.site-nav :focus {
   color: #2196f3;
 }
 .site-nav .link.current {
   color: #2196f3;
 }
 
-/*section*/
-.section-title {
-  background-color: #2f303a;
-  color: #ffffff;
-}
-
-.button {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-
-/* преимущества*/
-.title {
+.text {
   color: #212121;
 }
