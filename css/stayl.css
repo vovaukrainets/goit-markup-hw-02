@@ -2,26 +2,141 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  /* белый #FFFFFF; */
 }
 
 body {
+  background: #e5e5e5;
   color: #757575;
+
+  font-family: Roboto, sans-serif;
 }
 
-ul {
-  list-style: none;
+/* логотип */
+
+.logo {
+  color: #000000;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+
+.accent {
+  color: #2196f3;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
 }
 
 /* site nav */
+
+.site-nav .link {
+  color: #212121;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14px;
+  letter-spacing: 0.02em;
+}
 
 .site-nav :hover,
 .site-nav :focus {
   color: #2196f3;
 }
-.site-nav .link.current {
-  color: #2196f3;
+
+.contacts {
+  color: #757575;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
+/* кнопки */
+.button {
+  color: #212121;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+  letter-spacing: 0.03em;
+}
+
+.button :hover,
+.button :focus {
+  background: #2196f3;
+}
+
+/* текст под картинками */
 .text {
   color: #212121;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.title {
+  color: #757575;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+/* footer */
+
+.footer {
+  background: #2f303a;
+}
+
+/* logo */
+.symbol {
+  color: #ffffff;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+.style {
+  color: #2196f3;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+
+/* адрес */
+.nav {
+  color: #ffffff;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+}
+
+.adress a {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }

@@ -2,38 +2,190 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  /* белый #FFFFFF; */
 }
 
 body {
+  background: #e5e5e5;
   color: #757575;
+
+  font-family: Roboto, sans-serif;
 }
 
-ul {
-  list-style: none;
+/* WebStudio */
+
+.logo:hover {
+  color: #2196f3;
+}
+
+.logo {
+  color: #000000;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+
+.accent {
+  color: #2196f3;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
 }
 
 /* site nav */
 
-.site-nav :hover,
-.site-nav:focus {
-  color: #2196f3;
+.site-nav .link {
+  color: #212121;
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14px;
+  letter-spacing: 0.02em;
 }
-.site-nav .link.current {
+
+.contacts {
+  color: #757575;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.site-nav :hover,
+.site-nav :focus {
   color: #2196f3;
 }
 
-/*section*/
-.section-title {
-  background-color: #2f303a;
+/*section фон*/
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
   color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
   color: #ffffff;
   background-color: #2196f3;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
-/* преимущества*/
-.title {
+/* преимущества заголовок*/
+.section-caption {
   color: #212121;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* описание преимуществ */
+.section-text {
+  color: #757575;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+/* чем мы занимаемся и наша команда заголовок*/
+.feature-subject {
+  color: #212121;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* список команды */
+.team {
+  color: #212121;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+
+/* должности */
+.desc {
+  color: #757575;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+
+.footer {
+  background: #2f303a;
+}
+
+/* logo */
+.symbol {
+  color: #ffffff;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+.style {
+  color: #2196f3;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+
+/* адрес */
+.nav {
+  color: #ffffff;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+}
+
+.adress a {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
