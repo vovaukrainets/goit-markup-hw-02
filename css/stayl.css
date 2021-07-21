@@ -12,6 +12,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.list {
+  list-style: none;
+}
+
 /* логотип */
 
 .logo {
@@ -43,6 +47,7 @@ body {
   font-size: 14px;
   line-height: 1, 14px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav :hover,
@@ -57,20 +62,33 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 /* кнопки */
+
 .button {
   color: #212121;
 
+  position: absolute;
+  width: 59px;
+  height: 26px;
+  left: 887px;
+  top: 180px;
+
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62px;
+  line-height: 26px;
+  text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
 }
 
 .button :hover,
 .button :focus {
+  color: #ffffff;
   background: #2196f3;
 }
 
@@ -81,7 +99,6 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
-  /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   text-decoration: none;
 }
@@ -91,8 +108,7 @@ body {
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.9px;
-  /* identical to box height, or 187% */
+  line-height: 30px;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -107,6 +123,7 @@ body {
 .symbol {
   color: #ffffff;
 
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19px;
@@ -115,6 +132,7 @@ body {
 .style {
   color: #2196f3;
 
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19px;
@@ -122,21 +140,24 @@ body {
 }
 
 /* адрес */
-.nav {
+.adress-nav {
   color: #ffffff;
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 24px;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .adress a {
   color: rgba(255, 255, 255, 0.6);
 
-  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 24px;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
