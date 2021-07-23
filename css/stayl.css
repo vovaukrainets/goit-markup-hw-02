@@ -67,7 +67,7 @@ body {
 
 /* кнопки */
 
-.filter-item {
+.filter-btn {
   background: #f5f4fa;
   color: #212121;
 
@@ -80,10 +80,10 @@ body {
   letter-spacing: 0.03em;
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.filter-btn:hover,
+.filter-btn:focus {
+  background: #2196f3;
   color: #ffffff;
-  background-color: #2196f3;
 }
 
 /* текст под картинками */
