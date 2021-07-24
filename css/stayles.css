@@ -89,9 +89,11 @@ body {
   color: #ffffff;
   background-color: #2196f3;
 
-  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   display: flex;
   align-items: center;
   text-align: center;
